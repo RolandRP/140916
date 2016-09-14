@@ -17,6 +17,9 @@
     echo $vanus."Palju";
   }
 
-  echo "Õnne!";
+  echo "Õnne!<br>";
+
+  echo date("d.m.y-h:i:s-D");
+
 
 ?>
