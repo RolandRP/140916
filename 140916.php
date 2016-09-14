@@ -1,6 +1,9 @@
-<<?php
+140916 <br>
+
+<?php
 
   $age = 5;
+
   if ($age < 18){
     echo "Alaealine";
   }
@@ -8,5 +11,12 @@
     echo "Täisealine";
   }
 
+  echo "<br>";
+
+  for ($vanus=1; $vanus <= 5 ; $vanus++) {
+    echo $vanus."Palju";
+  }
+
+  echo "Õnne!";
 
 ?>
